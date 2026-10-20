@@ -1,0 +1,151 @@
+{
+  "model": "Chronological Pre-Transaction Logistic Regression",
+  "policy": "Maximize validation recall subject to alert capacity; apply selected threshold unchanged to test data.",
+  "results": [
+    {
+      "type": "CASH_OUT",
+      "target_validation_capacity_pct": 5.0,
+      "threshold": 0.893667115224636,
+      "validation_alert_rate_pct": 4.968061296172257,
+      "validation_recall": 0.5203389830508475,
+      "test": {
+        "rows": 29152,
+        "alerts": 1584,
+        "alert_rate_pct": 5.433589462129528,
+        "true_positives": 317,
+        "false_positives": 1267,
+        "false_negatives": 309,
+        "true_negatives": 27259,
+        "precision": 0.20012626262626262,
+        "recall": 0.5063897763578274
+      }
+    },
+    {
+      "type": "CASH_OUT",
+      "target_validation_capacity_pct": 10.0,
+      "threshold": 0.6738949344369007,
+      "validation_alert_rate_pct": 9.958994298410415,
+      "validation_recall": 0.6915254237288135,
+      "test": {
+        "rows": 29152,
+        "alerts": 3020,
+        "alert_rate_pct": 10.359495060373217,
+        "true_positives": 413,
+        "false_positives": 2607,
+        "false_negatives": 213,
+        "true_negatives": 25919,
+        "precision": 0.13675496688741723,
+        "recall": 0.6597444089456869
+      }
+    },
+    {
+      "type": "CASH_OUT",
+      "target_validation_capacity_pct": 15.0,
+      "threshold": 0.5449662877399817,
+      "validation_alert_rate_pct": 14.990769632909117,
+      "validation_recall": 0.8322033898305085,
+      "test": {
+        "rows": 29152,
+        "alerts": 4495,
+        "alert_rate_pct": 15.419182217343577,
+        "true_positives": 498,
+        "false_positives": 3997,
+        "false_negatives": 128,
+        "true_negatives": 24529,
+        "precision": 0.11078976640711902,
+        "recall": 0.7955271565495208
+      }
+    },
+    {
+      "type": "CASH_OUT",
+      "target_validation_capacity_pct": 20.0,
+      "threshold": 0.4660673543974145,
+      "validation_alert_rate_pct": 19.998039568051492,
+      "validation_recall": 0.976271186440678,
+      "test": {
+        "rows": 29152,
+        "alerts": 5960,
+        "alert_rate_pct": 20.44456641053787,
+        "true_positives": 602,
+        "false_positives": 5358,
+        "false_negatives": 24,
+        "true_negatives": 23168,
+        "precision": 0.10100671140939597,
+        "recall": 0.9616613418530351
+      }
+    },
+    {
+      "type": "TRANSFER",
+      "target_validation_capacity_pct": 5.0,
+      "threshold": 0.9532920139805313,
+      "validation_alert_rate_pct": 4.991423670668953,
+      "validation_recall": 0.6237288135593221,
+      "test": {
+        "rows": 8827,
+        "alerts": 616,
+        "alert_rate_pct": 6.978588421887391,
+        "true_positives": 389,
+        "false_positives": 227,
+        "false_negatives": 237,
+        "true_negatives": 7974,
+        "precision": 0.6314935064935064,
+        "recall": 0.6214057507987221
+      }
+    },
+    {
+      "type": "TRANSFER",
+      "target_validation_capacity_pct": 10.0,
+      "threshold": 0.8667584675329606,
+      "validation_alert_rate_pct": 9.479702687249857,
+      "validation_recall": 1.0,
+      "test": {
+        "rows": 8827,
+        "alerts": 1144,
+        "alert_rate_pct": 12.960235640648014,
+        "true_positives": 624,
+        "false_positives": 520,
+        "false_negatives": 2,
+        "true_negatives": 7681,
+        "precision": 0.5454545454545454,
+        "recall": 0.9968051118210862
+      }
+    },
+    {
+      "type": "TRANSFER",
+      "target_validation_capacity_pct": 15.0,
+      "threshold": 0.8667584675329606,
+      "validation_alert_rate_pct": 9.479702687249857,
+      "validation_recall": 1.0,
+      "test": {
+        "rows": 8827,
+        "alerts": 1144,
+        "alert_rate_pct": 12.960235640648014,
+        "true_positives": 624,
+        "false_positives": 520,
+        "false_negatives": 2,
+        "true_negatives": 7681,
+        "precision": 0.5454545454545454,
+        "recall": 0.9968051118210862
+      }
+    },
+    {
+      "type": "TRANSFER",
+      "target_validation_capacity_pct": 20.0,
+      "threshold": 0.8667584675329606,
+      "validation_alert_rate_pct": 9.479702687249857,
+      "validation_recall": 1.0,
+      "test": {
+        "rows": 8827,
+        "alerts": 1144,
+        "alert_rate_pct": 12.960235640648014,
+        "true_positives": 624,
+        "false_positives": 520,
+        "false_negatives": 2,
+        "true_negatives": 7681,
+        "precision": 0.5454545454545454,
+        "recall": 0.9968051118210862
+      }
+    }
+  ],
+  "note": "Target capacity applies to validation, not a guarantee for future alert volume. Test data is evaluation-only."
+}

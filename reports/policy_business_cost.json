@@ -1,0 +1,139 @@
+{
+  "false_positive_cost_assumption": 5.0,
+  "missed_fraud_loss_assumption": "Full transaction amount for each missed fraud",
+  "results": [
+    {
+      "target_validation_capacity_pct": 5.0,
+      "segments": [
+        {
+          "type": "CASH_OUT",
+          "threshold": 0.893667115224636,
+          "alerts": 1584,
+          "true_positives": 317,
+          "false_positives": 1267,
+          "false_negatives": 309,
+          "false_positive_cost": 6335.0,
+          "missed_fraud_loss": 47222768.620000005,
+          "total_estimated_cost": 47229103.620000005
+        },
+        {
+          "type": "TRANSFER",
+          "threshold": 0.9532920139805313,
+          "alerts": 616,
+          "true_positives": 389,
+          "false_positives": 227,
+          "false_negatives": 237,
+          "false_positive_cost": 1135.0,
+          "missed_fraud_loss": 23775880.61,
+          "total_estimated_cost": 23777015.61
+        }
+      ],
+      "total_alerts": 2200,
+      "total_false_positives": 1494,
+      "total_false_negatives": 546,
+      "total_fp_cost": 7470.0,
+      "total_missed_fraud_loss": 70998649.23,
+      "total_estimated_cost": 71006119.23
+    },
+    {
+      "target_validation_capacity_pct": 10.0,
+      "segments": [
+        {
+          "type": "CASH_OUT",
+          "threshold": 0.6738949344369007,
+          "alerts": 3020,
+          "true_positives": 413,
+          "false_positives": 2607,
+          "false_negatives": 213,
+          "false_positive_cost": 13035.0,
+          "missed_fraud_loss": 19561962.89,
+          "total_estimated_cost": 19574997.89
+        },
+        {
+          "type": "TRANSFER",
+          "threshold": 0.8667584675329606,
+          "alerts": 1144,
+          "true_positives": 624,
+          "false_positives": 520,
+          "false_negatives": 2,
+          "false_positive_cost": 2600.0,
+          "missed_fraud_loss": 81687.38,
+          "total_estimated_cost": 84287.38
+        }
+      ],
+      "total_alerts": 4164,
+      "total_false_positives": 3127,
+      "total_false_negatives": 215,
+      "total_fp_cost": 15635.0,
+      "total_missed_fraud_loss": 19643650.27,
+      "total_estimated_cost": 19659285.27
+    },
+    {
+      "target_validation_capacity_pct": 15.0,
+      "segments": [
+        {
+          "type": "CASH_OUT",
+          "threshold": 0.5449662877399817,
+          "alerts": 4495,
+          "true_positives": 498,
+          "false_positives": 3997,
+          "false_negatives": 128,
+          "false_positive_cost": 19985.0,
+          "missed_fraud_loss": 8789754.9,
+          "total_estimated_cost": 8809739.9
+        },
+        {
+          "type": "TRANSFER",
+          "threshold": 0.8667584675329606,
+          "alerts": 1144,
+          "true_positives": 624,
+          "false_positives": 520,
+          "false_negatives": 2,
+          "false_positive_cost": 2600.0,
+          "missed_fraud_loss": 81687.38,
+          "total_estimated_cost": 84287.38
+        }
+      ],
+      "total_alerts": 5639,
+      "total_false_positives": 4517,
+      "total_false_negatives": 130,
+      "total_fp_cost": 22585.0,
+      "total_missed_fraud_loss": 8871442.280000001,
+      "total_estimated_cost": 8894027.280000001
+    },
+    {
+      "target_validation_capacity_pct": 20.0,
+      "segments": [
+        {
+          "type": "CASH_OUT",
+          "threshold": 0.4660673543974145,
+          "alerts": 5960,
+          "true_positives": 602,
+          "false_positives": 5358,
+          "false_negatives": 24,
+          "false_positive_cost": 26790.0,
+          "missed_fraud_loss": 2600121.8800000004,
+          "total_estimated_cost": 2626911.8800000004
+        },
+        {
+          "type": "TRANSFER",
+          "threshold": 0.8667584675329606,
+          "alerts": 1144,
+          "true_positives": 624,
+          "false_positives": 520,
+          "false_negatives": 2,
+          "false_positive_cost": 2600.0,
+          "missed_fraud_loss": 81687.38,
+          "total_estimated_cost": 84287.38
+        }
+      ],
+      "total_alerts": 7104,
+      "total_false_positives": 5878,
+      "total_false_negatives": 26,
+      "total_fp_cost": 29390.0,
+      "total_missed_fraud_loss": 2681809.2600000002,
+      "total_estimated_cost": 2711199.2600000002
+    }
+  ],
+  "warning": "Illustrative costs only, not verified bank economics. Thresholds came from validation; test data is evaluation-only."
+}

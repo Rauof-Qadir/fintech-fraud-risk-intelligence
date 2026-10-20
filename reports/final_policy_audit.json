@@ -1,0 +1,118 @@
+{
+  "test_period_rows": 37979,
+  "recommended_policy": "Segment-specific thresholds selected on validation for a 20% target alert rate per segment.",
+  "global_baseline_threshold": 0.19,
+  "segment_results": [
+    {
+      "rows": 29152,
+      "actual_frauds": 626,
+      "threshold": 0.4660673543974145,
+      "alerts": 5960,
+      "alert_rate_pct": 20.44456641053787,
+      "true_positives": 602,
+      "false_positives": 5358,
+      "false_negatives": 24,
+      "true_negatives": 23168,
+      "precision_pct": 10.100671140939598,
+      "recall_pct": 96.1661341853035,
+      "average_precision": 0.41811379318148667,
+      "illustrative_cost_fp_5_usd": 26790.0,
+      "missed_fraud_amount_usd": 2600121.8800000004,
+      "illustrative_total_cost_usd": 2626911.8800000004,
+      "policy": "segment_specific_20pct_target",
+      "type": "CASH_OUT",
+      "validation_alert_rate_pct": 19.998039568051492
+    },
+    {
+      "rows": 29152,
+      "actual_frauds": 626,
+      "threshold": 0.19,
+      "alerts": 16147,
+      "alert_rate_pct": 55.388995609220636,
+      "true_positives": 626,
+      "false_positives": 15521,
+      "false_negatives": 0,
+      "true_negatives": 13005,
+      "precision_pct": 3.876881154394005,
+      "recall_pct": 100.0,
+      "average_precision": 0.41811379318148667,
+      "illustrative_cost_fp_5_usd": 77605.0,
+      "missed_fraud_amount_usd": 0.0,
+      "illustrative_total_cost_usd": 77605.0,
+      "policy": "global_threshold_0.19",
+      "type": "CASH_OUT",
+      "validation_alert_rate_pct": null
+    },
+    {
+      "rows": 8827,
+      "actual_frauds": 626,
+      "threshold": 0.8667584675329606,
+      "alerts": 1144,
+      "alert_rate_pct": 12.960235640648014,
+      "true_positives": 624,
+      "false_positives": 520,
+      "false_negatives": 2,
+      "true_negatives": 7681,
+      "precision_pct": 54.54545454545454,
+      "recall_pct": 99.68051118210862,
+      "average_precision": 0.7441978260455174,
+      "illustrative_cost_fp_5_usd": 2600.0,
+      "missed_fraud_amount_usd": 81687.38,
+      "illustrative_total_cost_usd": 84287.38,
+      "policy": "segment_specific_20pct_target",
+      "type": "TRANSFER",
+      "validation_alert_rate_pct": 9.479702687249857
+    },
+    {
+      "rows": 8827,
+      "actual_frauds": 626,
+      "threshold": 0.19,
+      "alerts": 4705,
+      "alert_rate_pct": 53.30236773535743,
+      "true_positives": 626,
+      "false_positives": 4079,
+      "false_negatives": 0,
+      "true_negatives": 4122,
+      "precision_pct": 13.304994686503719,
+      "recall_pct": 100.0,
+      "average_precision": 0.7441978260455174,
+      "illustrative_cost_fp_5_usd": 20395.0,
+      "missed_fraud_amount_usd": 0.0,
+      "illustrative_total_cost_usd": 20395.0,
+      "policy": "global_threshold_0.19",
+      "type": "TRANSFER",
+      "validation_alert_rate_pct": null
+    }
+  ],
+  "policy_summary": [
+    {
+      "policy": "global_threshold_0.19",
+      "total_alerts": 20852,
+      "total_false_positives": 19600,
+      "total_false_negatives": 0,
+      "total_fp_cost_usd": 98000.0,
+      "total_missed_fraud_amount_usd": 0.0,
+      "total_estimated_cost_usd": 98000.0
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "total_alerts": 7104,
+      "total_false_positives": 5878,
+      "total_false_negatives": 26,
+      "total_fp_cost_usd": 29390.0,
+      "total_missed_fraud_amount_usd": 2681809.2600000002,
+      "total_estimated_cost_usd": 2711199.2600000002
+    }
+  ],
+  "cost_assumptions": {
+    "false_positive_cost_usd": 5,
+    "missed_fraud_loss": "Full transaction amount",
+    "warning": "Illustrative costs, not verified bank economics."
+  },
+  "limitations": [
+    "Historical test performance does not guarantee future results.",
+    "A validation alert-rate target does not guarantee test capacity.",
+    "Thresholds should be recalibrated only using an approved validation process.",
+    "The test set must not be used to tune thresholds."
+  ]
+}

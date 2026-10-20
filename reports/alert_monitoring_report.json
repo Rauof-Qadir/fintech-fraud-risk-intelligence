@@ -1,0 +1,2324 @@
+{
+  "policy": "20% target capacity thresholds selected on validation",
+  "split_summary": [
+    {
+      "split": "train",
+      "type": "CASH_OUT",
+      "rows": 2147137,
+      "mean_score": 0.27096106272007786,
+      "median_score": 0.19814215303135782,
+      "p95_score": 0.849931915505339,
+      "threshold": 0.4660673543974145,
+      "alerts": 364541,
+      "alert_rate_pct": 16.978003732412045,
+      "fraud_rate_pct": 0.13506357535639318
+    },
+    {
+      "split": "train",
+      "type": "TRANSFER",
+      "rows": 506592,
+      "mean_score": 0.26698835918415165,
+      "median_score": 0.11519102525577252,
+      "p95_score": 0.9001127904492117,
+      "threshold": 0.8667584675329606,
+      "alerts": 31969,
+      "alert_rate_pct": 6.310601035942138,
+      "fraud_rate_pct": 0.5687022298022867
+    },
+    {
+      "split": "validation",
+      "type": "CASH_OUT",
+      "rows": 61211,
+      "mean_score": 0.2955466112794577,
+      "median_score": 0.2224946307140736,
+      "p95_score": 0.8922356515515923,
+      "threshold": 0.4660673543974145,
+      "alerts": 12241,
+      "alert_rate_pct": 19.998039568051492,
+      "fraud_rate_pct": 0.9638790413487771
+    },
+    {
+      "split": "validation",
+      "type": "TRANSFER",
+      "rows": 17490,
+      "mean_score": 0.3216117526504063,
+      "median_score": 0.19740730179948598,
+      "p95_score": 0.9532311490418719,
+      "threshold": 0.8667584675329606,
+      "alerts": 1658,
+      "alert_rate_pct": 9.479702687249857,
+      "fraud_rate_pct": 3.3733562035448825
+    },
+    {
+      "split": "test",
+      "type": "CASH_OUT",
+      "rows": 29152,
+      "mean_score": 0.2960804413981206,
+      "median_score": 0.21900988291727636,
+      "p95_score": 0.9139807854481673,
+      "threshold": 0.4660673543974145,
+      "alerts": 5960,
+      "alert_rate_pct": 20.44456641053787,
+      "fraud_rate_pct": 2.147365532381998
+    },
+    {
+      "split": "test",
+      "type": "TRANSFER",
+      "rows": 8827,
+      "mean_score": 0.3503444188098496,
+      "median_score": 0.23034080344216099,
+      "p95_score": 0.9870615535105945,
+      "threshold": 0.8667584675329606,
+      "alerts": 1144,
+      "alert_rate_pct": 12.960235640648014,
+      "fraud_rate_pct": 7.091877194969978
+    }
+  ],
+  "test_by_step": [
+    {
+      "step": 632,
+      "transactions": 4,
+      "mean_risk_score": 0.7134383085428471,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 633,
+      "transactions": 4,
+      "mean_risk_score": 0.7573114507150345,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 634,
+      "transactions": 5,
+      "mean_risk_score": 0.7483098228046428,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 635,
+      "transactions": 8,
+      "mean_risk_score": 0.8607084496108045,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 636,
+      "transactions": 6,
+      "mean_risk_score": 0.7920451001716858,
+      "alerts": 5,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 83.33333333333334,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 637,
+      "transactions": 1142,
+      "mean_risk_score": 0.26999075564592057,
+      "alerts": 197,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 17.25043782837128,
+      "fraud_rate_pct": 0.5253940455341506
+    },
+    {
+      "step": 638,
+      "transactions": 7,
+      "mean_risk_score": 0.7954056828791113,
+      "alerts": 6,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 85.71428571428571,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 639,
+      "transactions": 7,
+      "mean_risk_score": 0.7225619847131589,
+      "alerts": 6,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 85.71428571428571,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 640,
+      "transactions": 527,
+      "mean_risk_score": 0.274297413813064,
+      "alerts": 97,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 18.40607210626186,
+      "fraud_rate_pct": 1.3282732447817838
+    },
+    {
+      "step": 641,
+      "transactions": 5,
+      "mean_risk_score": 0.7412675049658903,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 642,
+      "transactions": 306,
+      "mean_risk_score": 0.31517103991409157,
+      "alerts": 70,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 22.875816993464053,
+      "fraud_rate_pct": 1.3071895424836601
+    },
+    {
+      "step": 643,
+      "transactions": 7,
+      "mean_risk_score": 0.7400567811363856,
+      "alerts": 6,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 85.71428571428571,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 644,
+      "transactions": 720,
+      "mean_risk_score": 0.29639616131489127,
+      "alerts": 161,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 22.36111111111111,
+      "fraud_rate_pct": 0.6944444444444444
+    },
+    {
+      "step": 645,
+      "transactions": 5,
+      "mean_risk_score": 0.8176338802434053,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 646,
+      "transactions": 10,
+      "mean_risk_score": 0.948594737354113,
+      "alerts": 10,
+      "actual_frauds": 10,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 647,
+      "transactions": 5,
+      "mean_risk_score": 0.7973725487534938,
+      "alerts": 4,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 80.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 648,
+      "transactions": 7,
+      "mean_risk_score": 0.8192897989454088,
+      "alerts": 6,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 85.71428571428571,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 649,
+      "transactions": 50,
+      "mean_risk_score": 0.23891002403195716,
+      "alerts": 8,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 16.0,
+      "fraud_rate_pct": 10.0
+    },
+    {
+      "step": 650,
+      "transactions": 8,
+      "mean_risk_score": 0.7801986972903038,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 651,
+      "transactions": 5,
+      "mean_risk_score": 0.8145326522074944,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 652,
+      "transactions": 7,
+      "mean_risk_score": 0.8214585285330873,
+      "alerts": 6,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 85.71428571428571,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 653,
+      "transactions": 4,
+      "mean_risk_score": 0.8392211684484698,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 654,
+      "transactions": 4,
+      "mean_risk_score": 0.7688526782377161,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 655,
+      "transactions": 2,
+      "mean_risk_score": 0.6420125575635938,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 656,
+      "transactions": 477,
+      "mean_risk_score": 0.2781045196837274,
+      "alerts": 90,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 18.867924528301888,
+      "fraud_rate_pct": 1.6771488469601679
+    },
+    {
+      "step": 657,
+      "transactions": 5,
+      "mean_risk_score": 0.8077570444920561,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 658,
+      "transactions": 7,
+      "mean_risk_score": 0.7338744676330075,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 659,
+      "transactions": 764,
+      "mean_risk_score": 0.2578133322360439,
+      "alerts": 113,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 14.790575916230367,
+      "fraud_rate_pct": 0.6544502617801047
+    },
+    {
+      "step": 660,
+      "transactions": 6,
+      "mean_risk_score": 0.5844925397415811,
+      "alerts": 4,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 66.66666666666666,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 661,
+      "transactions": 1577,
+      "mean_risk_score": 0.260205915214286,
+      "alerts": 272,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 17.247939124920737,
+      "fraud_rate_pct": 0.2536461636017755
+    },
+    {
+      "step": 662,
+      "transactions": 1,
+      "mean_risk_score": 0.9999744156671111,
+      "alerts": 1,
+      "actual_frauds": 1,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 663,
+      "transactions": 5,
+      "mean_risk_score": 0.7343481211239515,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 664,
+      "transactions": 342,
+      "mean_risk_score": 0.3173219312689969,
+      "alerts": 81,
+      "actual_frauds": 10,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 23.684210526315788,
+      "fraud_rate_pct": 2.923976608187134
+    },
+    {
+      "step": 665,
+      "transactions": 5,
+      "mean_risk_score": 0.8369203905924,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 666,
+      "transactions": 3,
+      "mean_risk_score": 0.7168241938243068,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 667,
+      "transactions": 474,
+      "mean_risk_score": 0.32626255150031025,
+      "alerts": 110,
+      "actual_frauds": 3,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 23.20675105485232,
+      "fraud_rate_pct": 0.6329113924050633
+    },
+    {
+      "step": 668,
+      "transactions": 4,
+      "mean_risk_score": 0.9570724362414413,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 669,
+      "transactions": 76,
+      "mean_risk_score": 0.246738873496595,
+      "alerts": 13,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 17.105263157894736,
+      "fraud_rate_pct": 5.263157894736842
+    },
+    {
+      "step": 670,
+      "transactions": 363,
+      "mean_risk_score": 0.2996238605656149,
+      "alerts": 72,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 19.834710743801654,
+      "fraud_rate_pct": 1.6528925619834711
+    },
+    {
+      "step": 671,
+      "transactions": 9,
+      "mean_risk_score": 0.7706076074539413,
+      "alerts": 9,
+      "actual_frauds": 9,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 672,
+      "transactions": 31,
+      "mean_risk_score": 0.25349961530639725,
+      "alerts": 6,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 19.35483870967742,
+      "fraud_rate_pct": 12.903225806451612
+    },
+    {
+      "step": 673,
+      "transactions": 54,
+      "mean_risk_score": 0.3225497897290986,
+      "alerts": 13,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 24.074074074074073,
+      "fraud_rate_pct": 11.11111111111111
+    },
+    {
+      "step": 674,
+      "transactions": 7,
+      "mean_risk_score": 0.8494979558019049,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 675,
+      "transactions": 17,
+      "mean_risk_score": 0.37987911901948107,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 29.411764705882355,
+      "fraud_rate_pct": 29.411764705882355
+    },
+    {
+      "step": 676,
+      "transactions": 4,
+      "mean_risk_score": 0.8707249978183007,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 677,
+      "transactions": 4,
+      "mean_risk_score": 0.9998996159203414,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 678,
+      "transactions": 3,
+      "mean_risk_score": 0.893131068912818,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 679,
+      "transactions": 17,
+      "mean_risk_score": 0.4769860311209129,
+      "alerts": 8,
+      "actual_frauds": 3,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 47.05882352941176,
+      "fraud_rate_pct": 17.647058823529413
+    },
+    {
+      "step": 680,
+      "transactions": 11,
+      "mean_risk_score": 0.9032865515373963,
+      "alerts": 11,
+      "actual_frauds": 11,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 681,
+      "transactions": 1500,
+      "mean_risk_score": 0.26812584249363663,
+      "alerts": 267,
+      "actual_frauds": 2,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 17.8,
+      "fraud_rate_pct": 0.13333333333333333
+    },
+    {
+      "step": 682,
+      "transactions": 3,
+      "mean_risk_score": 0.4798147824495105,
+      "alerts": 1,
+      "actual_frauds": 3,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 33.33333333333333,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 683,
+      "transactions": 813,
+      "mean_risk_score": 0.2559751879921432,
+      "alerts": 134,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 16.482164821648215,
+      "fraud_rate_pct": 0.4920049200492005
+    },
+    {
+      "step": 684,
+      "transactions": 1519,
+      "mean_risk_score": 0.2844161777911884,
+      "alerts": 286,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 18.828176431863067,
+      "fraud_rate_pct": 0.26333113890717574
+    },
+    {
+      "step": 685,
+      "transactions": 7,
+      "mean_risk_score": 0.8566293761867904,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 686,
+      "transactions": 1604,
+      "mean_risk_score": 0.26652372608041597,
+      "alerts": 276,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 17.206982543640898,
+      "fraud_rate_pct": 0.4987531172069825
+    },
+    {
+      "step": 687,
+      "transactions": 2801,
+      "mean_risk_score": 0.2696113106224001,
+      "alerts": 493,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 17.600856836843985,
+      "fraud_rate_pct": 0.14280614066404856
+    },
+    {
+      "step": 688,
+      "transactions": 2767,
+      "mean_risk_score": 0.2723688407223544,
+      "alerts": 488,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 17.636429345861945,
+      "fraud_rate_pct": 0.14456089627755692
+    },
+    {
+      "step": 689,
+      "transactions": 7,
+      "mean_risk_score": 0.8360422966953563,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 690,
+      "transactions": 1800,
+      "mean_risk_score": 0.3049286954994114,
+      "alerts": 356,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 19.77777777777778,
+      "fraud_rate_pct": 0.33333333333333337
+    },
+    {
+      "step": 691,
+      "transactions": 1648,
+      "mean_risk_score": 0.3146268844693713,
+      "alerts": 339,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 20.570388349514563,
+      "fraud_rate_pct": 0.3640776699029126
+    },
+    {
+      "step": 692,
+      "transactions": 2309,
+      "mean_risk_score": 0.3186022423231394,
+      "alerts": 497,
+      "actual_frauds": 10,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 21.524469467301863,
+      "fraud_rate_pct": 0.43308791684712
+    },
+    {
+      "step": 693,
+      "transactions": 2,
+      "mean_risk_score": 0.9681564634966284,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 694,
+      "transactions": 596,
+      "mean_risk_score": 0.2886954823057162,
+      "alerts": 112,
+      "actual_frauds": 12,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 18.79194630872483,
+      "fraud_rate_pct": 2.013422818791946
+    },
+    {
+      "step": 695,
+      "transactions": 469,
+      "mean_risk_score": 0.3104358319219857,
+      "alerts": 102,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 21.748400852878465,
+      "fraud_rate_pct": 1.0660980810234542
+    },
+    {
+      "step": 696,
+      "transactions": 3,
+      "mean_risk_score": 0.7873781192470889,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 697,
+      "transactions": 6,
+      "mean_risk_score": 0.8731785405894624,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 698,
+      "transactions": 28,
+      "mean_risk_score": 0.3851535096626763,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 28.57142857142857,
+      "fraud_rate_pct": 28.57142857142857
+    },
+    {
+      "step": 699,
+      "transactions": 18,
+      "mean_risk_score": 0.37817256635931673,
+      "alerts": 6,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 33.33333333333333,
+      "fraud_rate_pct": 44.44444444444444
+    },
+    {
+      "step": 700,
+      "transactions": 3,
+      "mean_risk_score": 0.765410208857737,
+      "alerts": 2,
+      "actual_frauds": 3,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 66.66666666666666,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 701,
+      "transactions": 9,
+      "mean_risk_score": 0.8169689301348372,
+      "alerts": 9,
+      "actual_frauds": 9,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 702,
+      "transactions": 7,
+      "mean_risk_score": 0.912177500459826,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 703,
+      "transactions": 4,
+      "mean_risk_score": 0.8413500291338891,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 704,
+      "transactions": 8,
+      "mean_risk_score": 0.9052467761179974,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 705,
+      "transactions": 726,
+      "mean_risk_score": 0.2879220490878872,
+      "alerts": 137,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 18.87052341597796,
+      "fraud_rate_pct": 0.6887052341597797
+    },
+    {
+      "step": 706,
+      "transactions": 2,
+      "mean_risk_score": 0.7751065844937612,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 707,
+      "transactions": 111,
+      "mean_risk_score": 0.26902654556528294,
+      "alerts": 20,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 18.01801801801802,
+      "fraud_rate_pct": 4.504504504504505
+    },
+    {
+      "step": 708,
+      "transactions": 2,
+      "mean_risk_score": 0.999988080205167,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 709,
+      "transactions": 864,
+      "mean_risk_score": 0.3004706335574993,
+      "alerts": 186,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 21.52777777777778,
+      "fraud_rate_pct": 0.4629629629629629
+    },
+    {
+      "step": 710,
+      "transactions": 751,
+      "mean_risk_score": 0.2872336294906717,
+      "alerts": 159,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 21.171770972037287,
+      "fraud_rate_pct": 0.9320905459387484
+    },
+    {
+      "step": 711,
+      "transactions": 4,
+      "mean_risk_score": 0.9295061922103407,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 712,
+      "transactions": 12,
+      "mean_risk_score": 0.47026128594882977,
+      "alerts": 8,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 66.66666666666666,
+      "fraud_rate_pct": 50.0
+    },
+    {
+      "step": 713,
+      "transactions": 4,
+      "mean_risk_score": 0.8912587541745065,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 714,
+      "transactions": 287,
+      "mean_risk_score": 0.3200726027428939,
+      "alerts": 61,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 21.254355400696863,
+      "fraud_rate_pct": 2.4390243902439024
+    },
+    {
+      "step": 715,
+      "transactions": 843,
+      "mean_risk_score": 0.3459400423913461,
+      "alerts": 207,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 24.555160142348754,
+      "fraud_rate_pct": 0.5931198102016607
+    },
+    {
+      "step": 716,
+      "transactions": 60,
+      "mean_risk_score": 0.4230607838496836,
+      "alerts": 21,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 35.0,
+      "fraud_rate_pct": 6.666666666666667
+    },
+    {
+      "step": 717,
+      "transactions": 165,
+      "mean_risk_score": 0.3850051309653184,
+      "alerts": 50,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 30.303030303030305,
+      "fraud_rate_pct": 3.6363636363636362
+    },
+    {
+      "step": 718,
+      "transactions": 121,
+      "mean_risk_score": 0.4183645424970522,
+      "alerts": 45,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 37.1900826446281,
+      "fraud_rate_pct": 6.6115702479338845
+    },
+    {
+      "step": 719,
+      "transactions": 7,
+      "mean_risk_score": 0.8418260527206026,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 720,
+      "transactions": 5,
+      "mean_risk_score": 0.55536965487114,
+      "alerts": 4,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 80.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 721,
+      "transactions": 2,
+      "mean_risk_score": 0.5263945692227425,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 722,
+      "transactions": 5,
+      "mean_risk_score": 0.7868278981530391,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 723,
+      "transactions": 7,
+      "mean_risk_score": 0.8096698401834794,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 724,
+      "transactions": 7,
+      "mean_risk_score": 0.7832539435279847,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 725,
+      "transactions": 2,
+      "mean_risk_score": 0.7776319648776322,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 726,
+      "transactions": 11,
+      "mean_risk_score": 0.8223336355138753,
+      "alerts": 11,
+      "actual_frauds": 11,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 727,
+      "transactions": 6,
+      "mean_risk_score": 0.7729849647335111,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 728,
+      "transactions": 5,
+      "mean_risk_score": 0.8228173872832893,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 729,
+      "transactions": 2,
+      "mean_risk_score": 0.7699955929789238,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 730,
+      "transactions": 14,
+      "mean_risk_score": 0.9212202080818734,
+      "alerts": 14,
+      "actual_frauds": 14,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 731,
+      "transactions": 8,
+      "mean_risk_score": 0.7051737018796047,
+      "alerts": 7,
+      "actual_frauds": 8,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 87.5,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 732,
+      "transactions": 5,
+      "mean_risk_score": 0.7922477771138976,
+      "alerts": 4,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 80.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 733,
+      "transactions": 5,
+      "mean_risk_score": 0.7989714217102101,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 734,
+      "transactions": 4,
+      "mean_risk_score": 0.8789734407715255,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 735,
+      "transactions": 6,
+      "mean_risk_score": 0.7017129060370131,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 736,
+      "transactions": 7,
+      "mean_risk_score": 0.8173093695169408,
+      "alerts": 6,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 85.71428571428571,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 737,
+      "transactions": 5,
+      "mean_risk_score": 0.8501535058720104,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 738,
+      "transactions": 5,
+      "mean_risk_score": 0.6205101068929932,
+      "alerts": 4,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 80.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 739,
+      "transactions": 5,
+      "mean_risk_score": 0.6690264643267659,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 740,
+      "transactions": 3,
+      "mean_risk_score": 0.9974838795343951,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 741,
+      "transactions": 11,
+      "mean_risk_score": 0.8094000165176428,
+      "alerts": 11,
+      "actual_frauds": 11,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 742,
+      "transactions": 7,
+      "mean_risk_score": 0.8018762301810648,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 743,
+      "transactions": 4,
+      "mean_risk_score": 0.9628625646436753,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "CASH_OUT",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 632,
+      "transactions": 4,
+      "mean_risk_score": 0.9302382558219765,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 633,
+      "transactions": 4,
+      "mean_risk_score": 0.9396153469081342,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 634,
+      "transactions": 5,
+      "mean_risk_score": 0.9385686754219712,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 635,
+      "transactions": 8,
+      "mean_risk_score": 0.9703081390253262,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 636,
+      "transactions": 6,
+      "mean_risk_score": 0.9549923908011578,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 637,
+      "transactions": 367,
+      "mean_risk_score": 0.31761078483260147,
+      "alerts": 27,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 7.3569482288828345,
+      "fraud_rate_pct": 1.6348773841961852
+    },
+    {
+      "step": 638,
+      "transactions": 7,
+      "mean_risk_score": 0.9567055326547559,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 639,
+      "transactions": 7,
+      "mean_risk_score": 0.9375596778020322,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 640,
+      "transactions": 72,
+      "mean_risk_score": 0.27158969630061686,
+      "alerts": 8,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 11.11111111111111,
+      "fraud_rate_pct": 9.722222222222223
+    },
+    {
+      "step": 641,
+      "transactions": 5,
+      "mean_risk_score": 0.9391308807211617,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 642,
+      "transactions": 105,
+      "mean_risk_score": 0.41052543674890907,
+      "alerts": 14,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 13.333333333333334,
+      "fraud_rate_pct": 3.8095238095238098
+    },
+    {
+      "step": 643,
+      "transactions": 7,
+      "mean_risk_score": 0.9368950302453004,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 644,
+      "transactions": 210,
+      "mean_risk_score": 0.3387204965582776,
+      "alerts": 21,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 10.0,
+      "fraud_rate_pct": 2.380952380952381
+    },
+    {
+      "step": 645,
+      "transactions": 5,
+      "mean_risk_score": 0.9566959986271109,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 646,
+      "transactions": 10,
+      "mean_risk_score": 0.9861938617678607,
+      "alerts": 10,
+      "actual_frauds": 10,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 647,
+      "transactions": 5,
+      "mean_risk_score": 0.9483353763462892,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 648,
+      "transactions": 7,
+      "mean_risk_score": 0.9596143037379987,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 649,
+      "transactions": 19,
+      "mean_risk_score": 0.46445016395231886,
+      "alerts": 6,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 31.57894736842105,
+      "fraud_rate_pct": 26.31578947368421
+    },
+    {
+      "step": 650,
+      "transactions": 8,
+      "mean_risk_score": 0.9450333810041919,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 651,
+      "transactions": 5,
+      "mean_risk_score": 0.9539828438004152,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 652,
+      "transactions": 7,
+      "mean_risk_score": 0.9589413800896995,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 653,
+      "transactions": 4,
+      "mean_risk_score": 0.9667849558878637,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 654,
+      "transactions": 4,
+      "mean_risk_score": 0.9397834180809123,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 655,
+      "transactions": 2,
+      "mean_risk_score": 0.9099570482872494,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 656,
+      "transactions": 182,
+      "mean_risk_score": 0.41749556557950296,
+      "alerts": 21,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 11.538461538461538,
+      "fraud_rate_pct": 4.395604395604396
+    },
+    {
+      "step": 657,
+      "transactions": 5,
+      "mean_risk_score": 0.9475045446396742,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 658,
+      "transactions": 7,
+      "mean_risk_score": 0.9302586819879588,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 659,
+      "transactions": 271,
+      "mean_risk_score": 0.1551489784258463,
+      "alerts": 8,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 2.952029520295203,
+      "fraud_rate_pct": 1.8450184501845017
+    },
+    {
+      "step": 660,
+      "transactions": 6,
+      "mean_risk_score": 0.9095983782522002,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 661,
+      "transactions": 562,
+      "mean_risk_score": 0.27367225952204105,
+      "alerts": 29,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 5.160142348754448,
+      "fraud_rate_pct": 0.7117437722419928
+    },
+    {
+      "step": 662,
+      "transactions": 1,
+      "mean_risk_score": 0.9999958147962742,
+      "alerts": 1,
+      "actual_frauds": 1,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 663,
+      "transactions": 5,
+      "mean_risk_score": 0.9378475998560827,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 664,
+      "transactions": 84,
+      "mean_risk_score": 0.28964918817139107,
+      "alerts": 15,
+      "actual_frauds": 10,
+      "type": "TRANSFER",
+      "alert_rate_pct": 17.857142857142858,
+      "fraud_rate_pct": 11.904761904761903
+    },
+    {
+      "step": 665,
+      "transactions": 5,
+      "mean_risk_score": 0.9636006884569583,
+      "alerts": 4,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 80.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 666,
+      "transactions": 3,
+      "mean_risk_score": 0.9316859722992469,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 667,
+      "transactions": 93,
+      "mean_risk_score": 0.3416366365061515,
+      "alerts": 7,
+      "actual_frauds": 3,
+      "type": "TRANSFER",
+      "alert_rate_pct": 7.526881720430108,
+      "fraud_rate_pct": 3.225806451612903
+    },
+    {
+      "step": 668,
+      "transactions": 4,
+      "mean_risk_score": 0.9918003501206081,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 669,
+      "transactions": 19,
+      "mean_risk_score": 0.40339192753844905,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 21.052631578947366,
+      "fraud_rate_pct": 21.052631578947366
+    },
+    {
+      "step": 670,
+      "transactions": 163,
+      "mean_risk_score": 0.4286711598242429,
+      "alerts": 19,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 11.65644171779141,
+      "fraud_rate_pct": 3.6809815950920246
+    },
+    {
+      "step": 671,
+      "transactions": 9,
+      "mean_risk_score": 0.9438940377825978,
+      "alerts": 9,
+      "actual_frauds": 9,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 672,
+      "transactions": 27,
+      "mean_risk_score": 0.355310025470916,
+      "alerts": 5,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 18.51851851851852,
+      "fraud_rate_pct": 14.814814814814813
+    },
+    {
+      "step": 673,
+      "transactions": 19,
+      "mean_risk_score": 0.5845430494456757,
+      "alerts": 9,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 47.368421052631575,
+      "fraud_rate_pct": 31.57894736842105
+    },
+    {
+      "step": 674,
+      "transactions": 7,
+      "mean_risk_score": 0.9656645757987342,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 675,
+      "transactions": 8,
+      "mean_risk_score": 0.6655577720608521,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 62.5,
+      "fraud_rate_pct": 62.5
+    },
+    {
+      "step": 676,
+      "transactions": 4,
+      "mean_risk_score": 0.9732834050825026,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 677,
+      "transactions": 4,
+      "mean_risk_score": 0.9999850152760092,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 678,
+      "transactions": 3,
+      "mean_risk_score": 0.9768281604458373,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 679,
+      "transactions": 13,
+      "mean_risk_score": 0.442400572635397,
+      "alerts": 4,
+      "actual_frauds": 3,
+      "type": "TRANSFER",
+      "alert_rate_pct": 30.76923076923077,
+      "fraud_rate_pct": 23.076923076923077
+    },
+    {
+      "step": 680,
+      "transactions": 11,
+      "mean_risk_score": 0.9779181490170096,
+      "alerts": 11,
+      "actual_frauds": 11,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 681,
+      "transactions": 525,
+      "mean_risk_score": 0.24696515247223944,
+      "alerts": 23,
+      "actual_frauds": 2,
+      "type": "TRANSFER",
+      "alert_rate_pct": 4.380952380952381,
+      "fraud_rate_pct": 0.38095238095238093
+    },
+    {
+      "step": 682,
+      "transactions": 3,
+      "mean_risk_score": 0.918729106821404,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 683,
+      "transactions": 223,
+      "mean_risk_score": 0.24969981381067682,
+      "alerts": 12,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 5.381165919282512,
+      "fraud_rate_pct": 1.7937219730941705
+    },
+    {
+      "step": 684,
+      "transactions": 472,
+      "mean_risk_score": 0.16924612618378973,
+      "alerts": 18,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 3.8135593220338984,
+      "fraud_rate_pct": 0.847457627118644
+    },
+    {
+      "step": 685,
+      "transactions": 7,
+      "mean_risk_score": 0.9622333729130889,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 686,
+      "transactions": 478,
+      "mean_risk_score": 0.28154840008875964,
+      "alerts": 36,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 7.531380753138076,
+      "fraud_rate_pct": 1.6736401673640167
+    },
+    {
+      "step": 687,
+      "transactions": 765,
+      "mean_risk_score": 0.2641622324385838,
+      "alerts": 40,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 5.228758169934641,
+      "fraud_rate_pct": 0.522875816993464
+    },
+    {
+      "step": 688,
+      "transactions": 743,
+      "mean_risk_score": 0.3526986110560987,
+      "alerts": 64,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 8.613728129205922,
+      "fraud_rate_pct": 0.5383580080753702
+    },
+    {
+      "step": 689,
+      "transactions": 7,
+      "mean_risk_score": 0.9621008420934508,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 690,
+      "transactions": 474,
+      "mean_risk_score": 0.3378131198503601,
+      "alerts": 33,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 6.962025316455696,
+      "fraud_rate_pct": 1.2658227848101267
+    },
+    {
+      "step": 691,
+      "transactions": 434,
+      "mean_risk_score": 0.3363328093272891,
+      "alerts": 38,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 8.755760368663594,
+      "fraud_rate_pct": 1.3824884792626728
+    },
+    {
+      "step": 692,
+      "transactions": 605,
+      "mean_risk_score": 0.40164942572332624,
+      "alerts": 64,
+      "actual_frauds": 10,
+      "type": "TRANSFER",
+      "alert_rate_pct": 10.578512396694215,
+      "fraud_rate_pct": 1.6528925619834711
+    },
+    {
+      "step": 693,
+      "transactions": 2,
+      "mean_risk_score": 0.9945917333915912,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 694,
+      "transactions": 264,
+      "mean_risk_score": 0.36478206584414336,
+      "alerts": 29,
+      "actual_frauds": 12,
+      "type": "TRANSFER",
+      "alert_rate_pct": 10.984848484848484,
+      "fraud_rate_pct": 4.545454545454546
+    },
+    {
+      "step": 695,
+      "transactions": 274,
+      "mean_risk_score": 0.40987803476728996,
+      "alerts": 29,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 10.583941605839415,
+      "fraud_rate_pct": 1.824817518248175
+    },
+    {
+      "step": 696,
+      "transactions": 3,
+      "mean_risk_score": 0.946881035392547,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 697,
+      "transactions": 6,
+      "mean_risk_score": 0.9716308675076321,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 698,
+      "transactions": 28,
+      "mean_risk_score": 0.46058230622651697,
+      "alerts": 9,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 32.142857142857146,
+      "fraud_rate_pct": 28.57142857142857
+    },
+    {
+      "step": 699,
+      "transactions": 24,
+      "mean_risk_score": 0.5277372272473246,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 33.33333333333333,
+      "fraud_rate_pct": 33.33333333333333
+    },
+    {
+      "step": 700,
+      "transactions": 3,
+      "mean_risk_score": 0.9551506860330264,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 701,
+      "transactions": 9,
+      "mean_risk_score": 0.9544331329172441,
+      "alerts": 9,
+      "actual_frauds": 9,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 702,
+      "transactions": 7,
+      "mean_risk_score": 0.9873666220529284,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 703,
+      "transactions": 4,
+      "mean_risk_score": 0.9623851348777231,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 704,
+      "transactions": 8,
+      "mean_risk_score": 0.9836439482748205,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 705,
+      "transactions": 208,
+      "mean_risk_score": 0.27961555246734304,
+      "alerts": 14,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 6.730769230769231,
+      "fraud_rate_pct": 2.403846153846154
+    },
+    {
+      "step": 706,
+      "transactions": 2,
+      "mean_risk_score": 0.9781415936113209,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 707,
+      "transactions": 37,
+      "mean_risk_score": 0.41136017997689395,
+      "alerts": 6,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 16.216216216216218,
+      "fraud_rate_pct": 13.513513513513514
+    },
+    {
+      "step": 708,
+      "transactions": 2,
+      "mean_risk_score": 0.99999805011618,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 709,
+      "transactions": 192,
+      "mean_risk_score": 0.32698254643557595,
+      "alerts": 17,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 8.854166666666668,
+      "fraud_rate_pct": 2.083333333333333
+    },
+    {
+      "step": 710,
+      "transactions": 158,
+      "mean_risk_score": 0.40040697837173495,
+      "alerts": 27,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 17.088607594936708,
+      "fraud_rate_pct": 4.430379746835443
+    },
+    {
+      "step": 711,
+      "transactions": 4,
+      "mean_risk_score": 0.9852757181229462,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 712,
+      "transactions": 6,
+      "mean_risk_score": 0.9360205694930407,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 713,
+      "transactions": 4,
+      "mean_risk_score": 0.9725233360469228,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 714,
+      "transactions": 54,
+      "mean_risk_score": 0.39811003970722925,
+      "alerts": 10,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 18.51851851851852,
+      "fraud_rate_pct": 12.962962962962962
+    },
+    {
+      "step": 715,
+      "transactions": 125,
+      "mean_risk_score": 0.4134499653942613,
+      "alerts": 13,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 10.4,
+      "fraud_rate_pct": 4.0
+    },
+    {
+      "step": 716,
+      "transactions": 15,
+      "mean_risk_score": 0.5897309891646114,
+      "alerts": 6,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 40.0,
+      "fraud_rate_pct": 26.666666666666668
+    },
+    {
+      "step": 717,
+      "transactions": 46,
+      "mean_risk_score": 0.6991404143232486,
+      "alerts": 17,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 36.95652173913043,
+      "fraud_rate_pct": 13.043478260869565
+    },
+    {
+      "step": 718,
+      "transactions": 60,
+      "mean_risk_score": 0.7359638651294846,
+      "alerts": 21,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 35.0,
+      "fraud_rate_pct": 13.333333333333334
+    },
+    {
+      "step": 719,
+      "transactions": 7,
+      "mean_risk_score": 0.9616276232175656,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 720,
+      "transactions": 5,
+      "mean_risk_score": 0.8963622347125659,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 721,
+      "transactions": 2,
+      "mean_risk_score": 0.8726993866052926,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 722,
+      "transactions": 5,
+      "mean_risk_score": 0.9460388008131657,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 723,
+      "transactions": 7,
+      "mean_risk_score": 0.9529094421394806,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 724,
+      "transactions": 7,
+      "mean_risk_score": 0.948867605614133,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 725,
+      "transactions": 2,
+      "mean_risk_score": 0.9489406056043372,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 726,
+      "transactions": 11,
+      "mean_risk_score": 0.9570333412273165,
+      "alerts": 11,
+      "actual_frauds": 11,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 727,
+      "transactions": 6,
+      "mean_risk_score": 0.9477700910360466,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 728,
+      "transactions": 5,
+      "mean_risk_score": 0.962233335126756,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 729,
+      "transactions": 2,
+      "mean_risk_score": 0.9409619584787596,
+      "alerts": 2,
+      "actual_frauds": 2,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 730,
+      "transactions": 14,
+      "mean_risk_score": 0.9837243445232948,
+      "alerts": 14,
+      "actual_frauds": 14,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 731,
+      "transactions": 8,
+      "mean_risk_score": 0.9354478875829682,
+      "alerts": 8,
+      "actual_frauds": 8,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 732,
+      "transactions": 5,
+      "mean_risk_score": 0.9549097449590931,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 733,
+      "transactions": 5,
+      "mean_risk_score": 0.949157126570908,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 734,
+      "transactions": 4,
+      "mean_risk_score": 0.967836261705861,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 735,
+      "transactions": 6,
+      "mean_risk_score": 0.9429397224836938,
+      "alerts": 6,
+      "actual_frauds": 6,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 736,
+      "transactions": 7,
+      "mean_risk_score": 0.9633404053826122,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 737,
+      "transactions": 5,
+      "mean_risk_score": 0.9698503909662781,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 738,
+      "transactions": 5,
+      "mean_risk_score": 0.9278050454767847,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 739,
+      "transactions": 5,
+      "mean_risk_score": 0.9330689361295695,
+      "alerts": 5,
+      "actual_frauds": 5,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 740,
+      "transactions": 3,
+      "mean_risk_score": 0.9995859141611566,
+      "alerts": 3,
+      "actual_frauds": 3,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 741,
+      "transactions": 11,
+      "mean_risk_score": 0.953861158290482,
+      "alerts": 11,
+      "actual_frauds": 11,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 742,
+      "transactions": 7,
+      "mean_risk_score": 0.9511139194414622,
+      "alerts": 7,
+      "actual_frauds": 7,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    },
+    {
+      "step": 743,
+      "transactions": 4,
+      "mean_risk_score": 0.9933032158571756,
+      "alerts": 4,
+      "actual_frauds": 4,
+      "type": "TRANSFER",
+      "alert_rate_pct": 100.0,
+      "fraud_rate_pct": 100.0
+    }
+  ],
+  "limitations": [
+    "Historical fraud labels may not be immediately available in production.",
+    "The selected validation thresholds do not guarantee a fixed future alert rate.",
+    "Score and alert shifts are monitoring signals, not proof of model failure."
+  ]
+}

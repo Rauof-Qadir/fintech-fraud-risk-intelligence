@@ -1,0 +1,287 @@
+{
+  "scenarios": [
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 5,
+      "missed_loss_fraction_pct": 10.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 98000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 98000.0,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 5,
+      "missed_loss_fraction_pct": 10.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 29390,
+      "estimated_missed_loss_usd": 268180.92600000004,
+      "estimated_total_cost_usd": 297570.92600000004,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 5,
+      "missed_loss_fraction_pct": 25.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 98000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 98000.0,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 5,
+      "missed_loss_fraction_pct": 25.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 29390,
+      "estimated_missed_loss_usd": 670452.3150000001,
+      "estimated_total_cost_usd": 699842.3150000001,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 5,
+      "missed_loss_fraction_pct": 50.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 98000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 98000.0,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 5,
+      "missed_loss_fraction_pct": 50.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 29390,
+      "estimated_missed_loss_usd": 1340904.6300000001,
+      "estimated_total_cost_usd": 1370294.6300000001,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 5,
+      "missed_loss_fraction_pct": 100.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 98000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 98000.0,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 5,
+      "missed_loss_fraction_pct": 100.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 29390,
+      "estimated_missed_loss_usd": 2681809.2600000002,
+      "estimated_total_cost_usd": 2711199.2600000002,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 25,
+      "missed_loss_fraction_pct": 10.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 146950,
+      "estimated_missed_loss_usd": 268180.92600000004,
+      "estimated_total_cost_usd": 415130.92600000004,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 25,
+      "missed_loss_fraction_pct": 10.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 490000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 490000.0,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 25,
+      "missed_loss_fraction_pct": 25.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 490000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 490000.0,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 25,
+      "missed_loss_fraction_pct": 25.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 146950,
+      "estimated_missed_loss_usd": 670452.3150000001,
+      "estimated_total_cost_usd": 817402.3150000001,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 25,
+      "missed_loss_fraction_pct": 50.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 490000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 490000.0,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 25,
+      "missed_loss_fraction_pct": 50.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 146950,
+      "estimated_missed_loss_usd": 1340904.6300000001,
+      "estimated_total_cost_usd": 1487854.6300000001,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 25,
+      "missed_loss_fraction_pct": 100.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 490000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 490000.0,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 25,
+      "missed_loss_fraction_pct": 100.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 146950,
+      "estimated_missed_loss_usd": 2681809.2600000002,
+      "estimated_total_cost_usd": 2828759.2600000002,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 100,
+      "missed_loss_fraction_pct": 10.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 587800,
+      "estimated_missed_loss_usd": 268180.92600000004,
+      "estimated_total_cost_usd": 855980.926,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 100,
+      "missed_loss_fraction_pct": 10.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 1960000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 1960000.0,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 100,
+      "missed_loss_fraction_pct": 25.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 587800,
+      "estimated_missed_loss_usd": 670452.3150000001,
+      "estimated_total_cost_usd": 1258252.315,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 100,
+      "missed_loss_fraction_pct": 25.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 1960000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 1960000.0,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 100,
+      "missed_loss_fraction_pct": 50.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 587800,
+      "estimated_missed_loss_usd": 1340904.6300000001,
+      "estimated_total_cost_usd": 1928704.6300000001,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 100,
+      "missed_loss_fraction_pct": 50.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 1960000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 1960000.0,
+      "scenario_rank": 2
+    },
+    {
+      "policy": "global_threshold_0.19",
+      "fp_cost_usd": 100,
+      "missed_loss_fraction_pct": 100.0,
+      "false_positives": 19600,
+      "missed_fraud_amount_usd": 0.0,
+      "estimated_fp_cost_usd": 1960000,
+      "estimated_missed_loss_usd": 0.0,
+      "estimated_total_cost_usd": 1960000.0,
+      "scenario_rank": 1
+    },
+    {
+      "policy": "segment_specific_20pct_target",
+      "fp_cost_usd": 100,
+      "missed_loss_fraction_pct": 100.0,
+      "false_positives": 5878,
+      "missed_fraud_amount_usd": 2681809.2600000002,
+      "estimated_fp_cost_usd": 587800,
+      "estimated_missed_loss_usd": 2681809.2600000002,
+      "estimated_total_cost_usd": 3269609.2600000002,
+      "scenario_rank": 2
+    }
+  ],
+  "break_even_at_fp_cost_5_usd": {
+    "fp_handling_savings_usd": 68610,
+    "additional_missed_transaction_amount_usd": 2681809.2600000002,
+    "break_even_loss_fraction_pct": 2.5583474941092565
+  },
+  "assumptions": {
+    "fp_costs_usd": [
+      5,
+      25,
+      100
+    ],
+    "missed_loss_fractions_pct": [
+      10.0,
+      25.0,
+      50.0,
+      100.0
+    ],
+    "warning": "Scenario estimates only. Transaction amount is not necessarily realized bank loss, and test results do not guarantee future performance."
+  }
+}

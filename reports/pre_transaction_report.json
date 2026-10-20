@@ -1,0 +1,49 @@
+{
+  "model": "Pre-Transaction Logistic Regression",
+  "features": [
+    "amount",
+    "oldbalanceOrg",
+    "oldbalanceDest",
+    "log_amount",
+    "is_zero_amount",
+    "is_transfer_or_cashout",
+    "type"
+  ],
+  "excluded_post_transaction_features": [
+    "newbalanceOrig",
+    "newbalanceDest",
+    "sender_balance_change",
+    "receiver_balance_change",
+    "sender_error",
+    "receiver_error"
+  ],
+  "business_assumptions": {
+    "false_positive_cost_usd": 5.0,
+    "missed_fraud_loss": "Full transaction amount",
+    "note": "Illustrative assumptions, not verified bank costs."
+  },
+  "validation_threshold_selection": {
+    "threshold": 0.39,
+    "alerts": 108194,
+    "false_positives": 106880,
+    "false_negatives": 0,
+    "false_positive_cost_usd": 534400.0,
+    "missed_fraud_loss_usd": 0.0,
+    "total_estimated_cost_usd": 534400.0
+  },
+  "test_results": {
+    "threshold": 0.39,
+    "alerts": 136356,
+    "false_positives": 134716,
+    "false_negatives": 3,
+    "false_positive_cost_usd": 673580.0,
+    "missed_fraud_loss_usd": 514946.47,
+    "total_estimated_cost_usd": 1188526.47,
+    "true_positives": 1640,
+    "true_negatives": 1136165,
+    "precision": 0.012027340197717739,
+    "recall": 0.9981740718198417,
+    "f1": 0.023768288176001275,
+    "average_precision": 0.17913495223433806
+  }
+}

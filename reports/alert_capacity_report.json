@@ -1,0 +1,88 @@
+{
+  "alert_capacity_target_per_fraud_related_type_pct": 10.0,
+  "thresholds_selected_on_validation": {
+    "CASH_OUT": 0.6738949344369007,
+    "TRANSFER": 0.8667584675329606
+  },
+  "test_results_with_segment_thresholds": [
+    {
+      "threshold": 0.6738949344369007,
+      "rows": 29152,
+      "actual_frauds": 626,
+      "alerts": 3020,
+      "alert_rate_pct": 10.359495060373217,
+      "true_positives": 413,
+      "false_positives": 2607,
+      "false_negatives": 213,
+      "true_negatives": 25919,
+      "precision": 0.13675496688741723,
+      "recall": 0.6597444089456869,
+      "f1": 0.22654964344487108,
+      "average_precision": 0.41811379318148667,
+      "type": "CASH_OUT",
+      "validation_selection": {
+        "threshold": 0.6738949344369007,
+        "validation_alert_rate_pct": 9.958994298410415,
+        "validation_recall": 0.6915254237288135,
+        "validation_alerts": 6096
+      }
+    },
+    {
+      "threshold": 0.8667584675329606,
+      "rows": 8827,
+      "actual_frauds": 626,
+      "alerts": 1144,
+      "alert_rate_pct": 12.960235640648014,
+      "true_positives": 624,
+      "false_positives": 520,
+      "false_negatives": 2,
+      "true_negatives": 7681,
+      "precision": 0.5454545454545454,
+      "recall": 0.9968051118210862,
+      "f1": 0.7050847457627119,
+      "average_precision": 0.7441978260455174,
+      "type": "TRANSFER",
+      "validation_selection": {
+        "threshold": 0.8667584675329606,
+        "validation_alert_rate_pct": 9.479702687249857,
+        "validation_recall": 1.0,
+        "validation_alerts": 1658
+      }
+    }
+  ],
+  "test_results_with_global_threshold_0_19": [
+    {
+      "threshold": 0.19,
+      "rows": 29152,
+      "actual_frauds": 626,
+      "alerts": 16147,
+      "alert_rate_pct": 55.388995609220636,
+      "true_positives": 626,
+      "false_positives": 15521,
+      "false_negatives": 0,
+      "true_negatives": 13005,
+      "precision": 0.03876881154394005,
+      "recall": 1.0,
+      "f1": 0.07464377272998271,
+      "average_precision": 0.41811379318148667,
+      "type": "CASH_OUT"
+    },
+    {
+      "threshold": 0.19,
+      "rows": 8827,
+      "actual_frauds": 626,
+      "alerts": 4705,
+      "alert_rate_pct": 53.30236773535743,
+      "true_positives": 626,
+      "false_positives": 4079,
+      "false_negatives": 0,
+      "true_negatives": 4122,
+      "precision": 0.13304994686503718,
+      "recall": 1.0,
+      "f1": 0.23485274807728382,
+      "average_precision": 0.7441978260455174,
+      "type": "TRANSFER"
+    }
+  ],
+  "note": "Capacity is an illustrative constraint. Thresholds were selected using validation data only. Test results are historical and do not guarantee future performance."
+}

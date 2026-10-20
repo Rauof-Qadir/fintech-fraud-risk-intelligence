@@ -1,0 +1,48 @@
+{
+  "model": "Chronological Pre-Transaction Logistic Regression",
+  "split_strategy": {
+    "training_steps": "1-520",
+    "validation_steps": "521-631",
+    "test_steps": "632-743"
+  },
+  "features": [
+    "amount",
+    "oldbalanceOrg",
+    "oldbalanceDest",
+    "log_amount",
+    "is_zero_amount",
+    "is_transfer_or_cashout",
+    "type"
+  ],
+  "threshold_selection_on_validation": {
+    "threshold": 0.19,
+    "alerts": 43320,
+    "false_positives": 42141,
+    "false_negatives": 1,
+    "false_positive_cost_usd": 210705.0,
+    "missed_fraud_loss_usd": 495977.84,
+    "total_estimated_cost_usd": 706682.8400000001
+  },
+  "test_metrics": {
+    "threshold": 0.19,
+    "alerts": 20852,
+    "false_positives": 19600,
+    "false_negatives": 0,
+    "false_positive_cost_usd": 98000.0,
+    "missed_fraud_loss_usd": 0.0,
+    "total_estimated_cost_usd": 98000.0,
+    "rows": 89466,
+    "actual_fraud": 1252,
+    "true_positives": 1252,
+    "true_negatives": 68614,
+    "precision": 0.06004220218684059,
+    "recall": 1.0,
+    "f1": 0.11328266377126311,
+    "average_precision": 0.5343563880709957
+  },
+  "business_assumptions": {
+    "false_positive_cost_usd": 5.0,
+    "missed_fraud_loss": "Full transaction amount",
+    "note": "Illustrative assumptions, not verified bank costs. Evaluation is historical and does not guarantee future production performance."
+  }
+}

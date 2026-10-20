@@ -1,0 +1,48 @@
+{
+  "method": "Score-distribution PSI using validation as reference and test as current period.",
+  "threshold_guidelines": {
+    "low": "PSI < 0.10",
+    "moderate": "0.10 <= PSI < 0.25",
+    "high": "PSI >= 0.25"
+  },
+  "results": [
+    {
+      "type": "CASH_OUT",
+      "reference_period": "validation",
+      "current_period": "test",
+      "reference_rows": 61211,
+      "current_rows": 29152,
+      "reference_mean_score": 0.2955466112794577,
+      "current_mean_score": 0.2960804413981206,
+      "reference_alert_rate_pct": 19.998039568051492,
+      "current_alert_rate_pct": 20.44456641053787,
+      "psi": 0.002534682637405666,
+      "psi_status": "LOW",
+      "threshold": 0.4660673543974145,
+      "reference_fraud_rate_pct": 0.9638790413487771,
+      "current_fraud_rate_pct": 2.147365532381998
+    },
+    {
+      "type": "TRANSFER",
+      "reference_period": "validation",
+      "current_period": "test",
+      "reference_rows": 17490,
+      "current_rows": 8827,
+      "reference_mean_score": 0.3216117526504063,
+      "current_mean_score": 0.3503444188098496,
+      "reference_alert_rate_pct": 9.479702687249857,
+      "current_alert_rate_pct": 12.960235640648014,
+      "psi": 0.022392998249439272,
+      "psi_status": "LOW",
+      "threshold": 0.8667584675329606,
+      "reference_fraud_rate_pct": 3.3733562035448825,
+      "current_fraud_rate_pct": 7.091877194969978
+    }
+  ],
+  "limitations": [
+    "PSI measures score-distribution change, not model accuracy.",
+    "Fraud prevalence changes can affect score distributions.",
+    "Historical test results do not guarantee future performance.",
+    "Thresholds were selected on validation data."
+  ]
+}
