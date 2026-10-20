@@ -19,6 +19,15 @@ The project moves beyond model training to include data quality checks, feature 
 
 ---
 
+## Screen Shots
+
+![Executive Overview](visuals/1.png)
+![Risk Policy Comparison](visuals/2.png)
+![Bussiness Cost](visuals/3.png)
+![Transaction Explorer](visuals/4.png)
+
+
+
 ## Table of Contents
 
 - [Business Problem](#business-problem)
