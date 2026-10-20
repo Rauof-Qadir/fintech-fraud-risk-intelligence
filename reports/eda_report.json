@@ -1,0 +1,48 @@
+{
+  "total_transactions": 6362620,
+  "fraud_transactions": 8213,
+  "fraud_rate_percent": 0.12908,
+  "median_amount": 74871.94,
+  "mean_amount": 179861.90354913071,
+  "maximum_amount": 92445516.64,
+  "zero_amount_transactions": 16,
+  "zero_amount_fraud_transactions": 16,
+  "fraud_by_type": [
+    {
+      "type": "CASH_IN",
+      "transactions": 1399284,
+      "fraud_count": 0,
+      "fraud_rate": 0.0,
+      "fraud_rate_percent": 0.0
+    },
+    {
+      "type": "CASH_OUT",
+      "transactions": 2237500,
+      "fraud_count": 4116,
+      "fraud_rate": 0.0018395530726256983,
+      "fraud_rate_percent": 0.18395530726256984
+    },
+    {
+      "type": "DEBIT",
+      "transactions": 41432,
+      "fraud_count": 0,
+      "fraud_rate": 0.0,
+      "fraud_rate_percent": 0.0
+    },
+    {
+      "type": "PAYMENT",
+      "transactions": 2151495,
+      "fraud_count": 0,
+      "fraud_rate": 0.0,
+      "fraud_rate_percent": 0.0
+    },
+    {
+      "type": "TRANSFER",
+      "transactions": 532909,
+      "fraud_count": 4097,
+      "fraud_rate": 0.007687991758442811,
+      "fraud_rate_percent": 0.7687991758442811
+    }
+  ],
+  "charts_directory": "reports\\figures"
+}
