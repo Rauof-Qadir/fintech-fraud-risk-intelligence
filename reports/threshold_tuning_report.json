@@ -1,0 +1,15 @@
+{
+  "selected_threshold": 0.5120004308449989,
+  "selection_method": "Highest validation precision with recall >= 80%",
+  "validation_precision": 0.005073106747424868,
+  "validation_recall": 0.8006088280060882,
+  "test_precision": 0.004898716210715587,
+  "test_recall": 0.8423615337796714,
+  "test_f1": 0.009740785315625373,
+  "test_average_precision": 0.015697185841833577,
+  "test_true_positives": 1384,
+  "test_false_positives": 281139,
+  "test_true_negatives": 989742,
+  "test_false_negatives": 259,
+  "test_alert_count": 282523
+}
