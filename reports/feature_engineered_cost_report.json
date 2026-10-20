@@ -1,0 +1,66 @@
+{
+  "model": "Feature-engineered Logistic Regression",
+  "features": [
+    "amount",
+    "sender_balance_change",
+    "receiver_balance_change",
+    "sender_error",
+    "receiver_error",
+    "log_amount",
+    "is_zero_amount",
+    "is_transfer_or_cashout",
+    "type"
+  ],
+  "business_assumptions": {
+    "false_positive_investigation_cost_usd": 5.0,
+    "missed_fraud_loss": "Full transaction amount",
+    "note": "Illustrative assumptions, not verified bank costs. Estimated cost is not the same as confirmed realized loss."
+  },
+  "threshold_selection": {
+    "threshold": 0.2226981690166919,
+    "validation_total_cost_usd": 631128.0,
+    "validation_false_positive_cost_usd": 619820.0,
+    "validation_missed_fraud_loss_usd": 11308.0,
+    "validation_alerts": 125277,
+    "validation_true_positives": 1313,
+    "validation_false_positives": 123964,
+    "validation_false_negatives": 1
+  },
+  "untouched_test_evaluation": {
+    "optimized_threshold": {
+      "threshold": 0.2226981690166919,
+      "rows": 1272524,
+      "actual_fraud": 1643,
+      "alerts": 154473,
+      "true_positives": 1640,
+      "false_positives": 152833,
+      "true_negatives": 1118048,
+      "false_negatives": 3,
+      "precision": 0.010616742084377205,
+      "recall": 0.9981740718198417,
+      "f1": 0.02101001819160112,
+      "average_precision": 0.5413602068734541,
+      "false_positive_cost_usd": 764165.0,
+      "missed_fraud_loss_usd": 653405.97,
+      "total_estimated_cost_usd": 1417570.97
+    },
+    "threshold_0_5": {
+      "threshold": 0.5,
+      "rows": 1272524,
+      "actual_fraud": 1643,
+      "alerts": 80488,
+      "true_positives": 1598,
+      "false_positives": 78890,
+      "true_negatives": 1191991,
+      "false_negatives": 45,
+      "precision": 0.019853891263293906,
+      "recall": 0.9726110772976263,
+      "f1": 0.03891344315788192,
+      "average_precision": 0.5413602068734541,
+      "false_positive_cost_usd": 394450.0,
+      "missed_fraud_loss_usd": 2339461.63,
+      "total_estimated_cost_usd": 2733911.63
+    },
+    "estimated_savings_vs_threshold_0_5_usd": 1316340.66
+  }
+}

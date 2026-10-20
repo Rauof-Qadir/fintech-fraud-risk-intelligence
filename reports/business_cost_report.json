@@ -1,0 +1,66 @@
+{
+  "business_assumptions": {
+    "false_positive_investigation_cost_usd": 5.0,
+    "missed_fraud_loss": "Full transaction amount",
+    "note": "Illustrative assumptions, not verified bank costs. Actual loss may differ from transaction amount."
+  },
+  "threshold_selection": {
+    "method": "Minimum estimated total cost on validation data",
+    "selected_threshold": 0.4668709909305511,
+    "validation_optimized": {
+      "threshold": 0.4668709909305511,
+      "true_positives": 1305,
+      "false_positives": 439876,
+      "true_negatives": 576830,
+      "false_negatives": 9,
+      "alerts": 441181,
+      "precision": 0.002957969631511783,
+      "recall": 0.9931506849315068,
+      "false_positive_cost_usd": 2199380.0,
+      "missed_fraud_loss_usd": 4129.43,
+      "total_estimated_cost_usd": 2203509.43
+    },
+    "validation_at_threshold_0_5": {
+      "threshold": 0.5,
+      "true_positives": 1093,
+      "false_positives": 259114,
+      "true_negatives": 757592,
+      "false_negatives": 221,
+      "alerts": 260207,
+      "precision": 0.004200501908096246,
+      "recall": 0.8318112633181126,
+      "false_positive_cost_usd": 1295570.0,
+      "missed_fraud_loss_usd": 13463214.059999999,
+      "total_estimated_cost_usd": 14758784.059999999
+    }
+  },
+  "untouched_test_evaluation": {
+    "optimized_threshold": {
+      "threshold": 0.4668709909305511,
+      "true_positives": 1643,
+      "false_positives": 552077,
+      "true_negatives": 718804,
+      "false_negatives": 0,
+      "alerts": 553720,
+      "precision": 0.0029672036408293,
+      "recall": 1.0,
+      "false_positive_cost_usd": 2760385.0,
+      "missed_fraud_loss_usd": 0.0,
+      "total_estimated_cost_usd": 2760385.0
+    },
+    "threshold_0_5": {
+      "threshold": 0.5,
+      "true_positives": 1445,
+      "false_positives": 353812,
+      "true_negatives": 917069,
+      "false_negatives": 198,
+      "alerts": 355257,
+      "precision": 0.004067477910357853,
+      "recall": 0.8794887401095557,
+      "false_positive_cost_usd": 1769060.0,
+      "missed_fraud_loss_usd": 10091087.64,
+      "total_estimated_cost_usd": 11860147.64
+    },
+    "estimated_savings_vs_threshold_0_5_usd": 9099762.64
+  }
+}
